@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Birthday, Ankush Sir</title>
+<meta name="description" content="The Birthday Issue: a special edition for Ankush Arora, from Tartendu and Arpita.">
+<meta name="theme-color" content="#f4ecdd">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%82%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@500;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4ecdd;
+  --paper-2:#eadfc9;
+  --card:#fffaf0;
+  --ink:#18130e;
+  --muted:#6a5f51;
+  --marigold:#f2a516;
+  --hot:#d8431d;
+  --zen:#5568f6;
+  --night:#130f1d;
+  --serif:"Bodoni Moda",Didot,"Bodoni MT","Times New Roman",serif;
+  --sans:"Instrument Sans",system-ui,"Segoe UI",Roboto,sans-serif;
+  --hand:"Caveat","Segoe Script","Bradley Hand",cursive;
+  --pad:clamp(18px,4.5vw,64px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;z-index:50;pointer-events:none;opacity:.07;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E")}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,figure,ul{margin:0}
+ul{padding:0;list-style:none}
+button{font:inherit;color:inherit}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--zen);outline-offset:3px}
+
+.label{font:600 11px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase}
+.wrap{max-width:1320px;margin:0 auto;padding-inline:var(--pad)}
+
+/* ───────── Cover ───────── */
+.cover{position:relative;padding:16px var(--pad) clamp(40px,5vw,68px);display:flex;flex-direction:column}
+.cover-bar{display:flex;justify-content:space-between;gap:14px;padding-bottom:12px;border-bottom:1.5px solid var(--ink)}
+.cover-bar span:nth-child(2){color:var(--hot)}
+.masthead{position:relative;z-index:3;pointer-events:none;margin-top:clamp(10px,1.4vw,20px);user-select:none}
+.masthead svg{display:block;width:100%;height:auto;overflow:visible}
+.masthead text{font-family:var(--serif);font-weight:800;fill:var(--ink)}
+.cover-grid{position:relative;z-index:2;flex:1;display:grid;grid-template-columns:1fr minmax(260px,31vw) 1fr;gap:clamp(22px,4vw,64px);align-items:end;margin-top:clamp(-130px,-7.5vw,-30px)}
+.cover-left{padding-bottom:6px}
+.cover-left .label{color:var(--hot);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.cover-left .label::before{content:"";width:34px;height:1.5px;background:currentColor}
+h1{font:500 clamp(2.7rem,4.3vw,4.6rem)/.98 var(--serif);letter-spacing:-.02em}
+h1 em{font-style:italic;font-weight:400;color:var(--hot)}
+.dek{margin-top:18px;max-width:34ch;color:var(--muted);font-size:1rem}
+.dek strong{color:var(--ink);font-weight:600}
+.btn{display:inline-flex;align-items:center;gap:10px;margin-top:24px;padding:14px 22px;border-radius:999px;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);text-decoration:none;font:600 12px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;cursor:pointer;transition:background .25s,color .25s,transform .25s}
+.btn:hover{background:var(--marigold);color:var(--ink);transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:var(--marigold);color:var(--ink);border-color:var(--marigold)}
+
+.cover-photo{position:relative}
+.cover-photo .frame{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--paper-2);box-shadow:14px 14px 0 var(--marigold)}
+.cover-photo img{width:100%;height:100%;object-fit:cover}
+.seal{position:absolute;bottom:-44px;left:-60px;width:124px;height:124px;z-index:3}
+.seal svg{width:100%;height:100%;animation:spin 22s linear infinite}
+.seal text{font:700 10.5px var(--sans);letter-spacing:.21em;fill:var(--paper);text-transform:uppercase}
+.seal b{position:absolute;inset:0;display:grid;place-items:center;font-size:34px;font-weight:400}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.cover-right{justify-self:end;width:min(100%,290px);padding-bottom:6px}
+.cover-right .label{padding-bottom:10px;border-bottom:1.5px solid var(--ink)}
+.toc a{display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid rgba(24,19,14,.18);text-decoration:none;font:600 1.12rem/1.2 var(--serif);transition:padding .25s,color .25s}
+.toc a:hover{padding-left:8px;color:var(--hot)}
+.toc i{font:600 10px/1 var(--sans);letter-spacing:.16em;color:var(--muted);font-style:normal;min-width:20px}
+.byline{margin-top:14px;font-size:.84rem;color:var(--muted);line-height:1.45}
+.byline strong{display:block;color:var(--ink);font-weight:600}
+
+/* ───────── Marquee ───────── */
+.marquee{display:flex;overflow:hidden;background:var(--ink);color:var(--paper);padding:15px 0;font:italic 400 clamp(1.15rem,2.1vw,1.7rem)/1 var(--serif);white-space:nowrap}
+.marquee .track{flex:none;display:flex;gap:1.6em;padding-right:1.6em;animation:slide 34s linear infinite}
+.marquee b{font-weight:400;color:var(--marigold);font-style:normal}
+@keyframes slide{to{transform:translateX(-100%)}}
+
+/* ───────── Section heads ───────── */
+.sec-head{padding-top:clamp(64px,9vw,130px);display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px;border-bottom:1.5px solid currentColor;padding-bottom:22px}
+.sec-head h2{font:500 clamp(2.4rem,6.4vw,6rem)/.95 var(--serif);letter-spacing:-.025em}
+.sec-head h2 em{font-weight:400}
+.sec-head p{max-width:30ch;font-size:.95rem;color:var(--muted);text-align:right}
+
+/* ───────── Features ───────── */
+.feature{display:grid;grid-template-columns:repeat(12,1fr);column-gap:clamp(16px,3vw,48px);align-items:center;padding-block:clamp(56px,8vw,120px)}
+.feature + .feature{border-top:1px solid rgba(24,19,14,.18)}
+.feature .media{grid-column:1 / span 6}
+.feature .copy{grid-column:8 / span 5}
+.feature.flip .media{grid-column:7 / span 6;order:2}
+.feature.flip .copy{grid-column:1 / span 5}
+.num{display:block;font:italic 400 clamp(4.6rem,10vw,9.5rem)/.8 var(--serif);color:transparent;-webkit-text-stroke:1.5px var(--ink);margin-bottom:22px}
+.copy .label{color:var(--hot)}
+.copy h3{margin-top:10px;font:500 clamp(2rem,4vw,3.5rem)/1 var(--serif);letter-spacing:-.02em}
+.copy h3 em{font-weight:400}
+.copy p.body{margin-top:20px;max-width:42ch;font-size:1.06rem;color:#3a3229}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.tags li{padding:7px 13px;border:1.5px solid var(--ink);border-radius:999px;font:600 10.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+.tags li.fill{background:var(--zen);border-color:var(--zen);color:#fff}
+
+.ph{position:relative;cursor:zoom-in}
+.ph .frame{overflow:hidden;background:var(--paper-2);aspect-ratio:3/4}
+.ph.nat .frame{aspect-ratio:auto}
+.ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.ph:hover img{transform:scale(1.035)}
+.ph figcaption{margin-top:10px;display:flex;gap:10px;font:500 11.5px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ph figcaption::before{content:"";flex:none;width:18px;height:1.5px;background:var(--hot);margin-top:.6em}
+
+.media.single{max-width:500px;justify-self:center;width:100%}
+.media.single .frame{aspect-ratio:5/7;box-shadow:-14px 14px 0 var(--zen)}
+.media.single figcaption{margin-top:28px}
+.media.duo.left .ph:not(.small) figcaption{justify-content:flex-end}
+.media.duo{position:relative;padding:0 16% 12% 0}
+.media.duo .ph.small{position:absolute;right:0;bottom:0;width:46%;transform:rotate(3deg)}
+.media.duo .ph.small .frame{border:8px solid var(--card);box-shadow:0 18px 40px -14px rgba(24,19,14,.5)}
+.media.duo .ph.small figcaption{display:none}
+.media.duo.left{padding:0 0 12% 16%}
+.media.duo.left .ph.small{right:auto;left:0;transform:rotate(-3deg)}
+.media.quad{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.6vw,22px);align-items:start}
+.media.quad .col{display:grid;gap:clamp(12px,1.6vw,22px)}
+.media.quad .col:last-child{margin-top:14%}
+
+/* ───────── Mood board ───────── */
+.moods{background:var(--marigold);margin-top:clamp(20px,4vw,60px);padding-bottom:clamp(64px,9vw,120px)}
+.moods .sec-head p{color:#4a3406}
+.board{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(22px,3.4vw,52px);padding-top:clamp(40px,5vw,72px)}
+.pol{background:var(--card);padding:12px 12px 0;box-shadow:0 22px 44px -20px rgba(60,35,0,.55),0 2px 4px rgba(60,35,0,.14);transform:rotate(var(--r,0deg));transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s;cursor:zoom-in}
+.pol:hover{transform:rotate(0) translateY(-8px) scale(1.02);box-shadow:0 34px 56px -22px rgba(60,35,0,.6)}
+.pol .frame{aspect-ratio:3/4;overflow:hidden;background:var(--paper-2)}
+.pol img{width:100%;height:100%;object-fit:cover}
+.pol figcaption{padding:10px 4px 14px;font:700 1.55rem/1.1 var(--hand);text-align:center}
+.pol:nth-child(1){--r:-2.4deg}.pol:nth-child(2){--r:1.6deg;margin-top:34px}.pol:nth-child(3){--r:-1.2deg}
+.pol:nth-child(4){--r:2.2deg}.pol:nth-child(5){--r:-1.8deg;margin-top:34px}.pol:nth-child(6){--r:1.3deg}
+.swipe{display:none}
+
+/* ───────── Letter ───────── */
+.letter{display:grid;grid-template-columns:5fr 7fr;gap:clamp(28px,5vw,80px);align-items:start;padding-block:clamp(72px,10vw,150px)}
+.letter-head{position:sticky;top:48px}
+.letter-head .label{color:var(--hot)}
+.letter-head h2{margin-top:12px;font:500 clamp(2.4rem,5.2vw,4.8rem)/.96 var(--serif);letter-spacing:-.025em}
+.letter-head h2 em{font-weight:400}
+.letter-head p{margin-top:18px;color:var(--muted);max-width:30ch}
+.note{position:relative;background:var(--card);padding:clamp(28px,4.4vw,64px);box-shadow:0 30px 60px -34px rgba(24,19,14,.45),0 1px 0 rgba(24,19,14,.08);transform:rotate(-.6deg)}
+.note::before{content:"";position:absolute;top:-16px;left:50%;width:130px;height:34px;margin-left:-65px;background:rgba(242,165,22,.78);transform:rotate(-2deg);box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.note p{font:400 clamp(1.08rem,1.5vw,1.28rem)/1.65 var(--serif)}
+.note p + p{margin-top:1.1em}
+.note .salute{font:700 2rem/1 var(--hand);color:var(--hot)}
+.note .sign{margin-top:1.6em;font:700 clamp(2.2rem,4vw,3rem)/1 var(--hand)}
+.note .sign small{display:block;margin-top:8px;font:600 11px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+/* ───────── Cake ───────── */
+.wish{position:relative;background:var(--night);color:var(--paper);text-align:center;padding:clamp(72px,10vw,140px) var(--pad) clamp(64px,8vw,110px);overflow:hidden}
+.wish::before{content:"";position:absolute;left:50%;top:46%;width:min(900px,140vw);aspect-ratio:1;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(242,165,22,.26),rgba(242,165,22,.07) 40%,transparent 66%);transition:opacity 1.2s;pointer-events:none}
+.wish.done::before{opacity:.45}
+.wish > *{position:relative}
+.wish .label{color:var(--marigold)}
+.wish h2{margin-top:14px;font:500 clamp(2.5rem,7vw,6.2rem)/.98 var(--serif);letter-spacing:-.025em}
+.wish h2 em{font-weight:400;color:var(--marigold)}
+.wish .hint{margin-top:16px;color:rgba(244,236,221,.7)}
+.wish .after{display:none}
+.wish.done .before{display:none}
+.wish.done .after{display:block;animation:pop .7s cubic-bezier(.2,1.3,.3,1) both}
+.wish .hindi{margin-top:14px;font:500 clamp(1.3rem,3vw,2rem)/1.4 "Nirmala UI","Noto Sans Devanagari","Kohinoor Devanagari",var(--sans);color:var(--marigold)}
+@keyframes pop{from{opacity:0;transform:scale(.92) translateY(14px)}}
+
+.cake{position:relative;width:min(320px,78vw);margin:clamp(40px,6vw,70px) auto 0;padding-top:104px}
+.candles{position:absolute;top:8px;left:50%;transform:translateX(-50%);display:flex;z-index:3}
+.candle{position:relative;width:36px;height:100px;padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.stick{position:absolute;left:50%;bottom:0;width:13px;height:56px;margin-left:-6.5px;border-radius:4px 4px 2px 2px;background:repeating-linear-gradient(135deg,#fffaf0 0 6px,var(--c) 6px 12px)}
+.stick::before{content:"";position:absolute;left:50%;top:-7px;width:2px;height:8px;margin-left:-1px;background:#2b2018;border-radius:1px}
+.flame{position:absolute;left:50%;bottom:calc(100% + 5px);width:16px;height:27px;margin-left:-8px;border-radius:50% 50% 50% 50% / 64% 64% 36% 36%;background:radial-gradient(ellipse at 50% 78%,#fffbd6 0 22%,#ffd14a 46%,#ff7d1a 82%);box-shadow:0 0 18px 6px rgba(255,176,46,.55),0 0 64px 22px rgba(255,140,20,.22);transform-origin:50% 100%;animation:flick .8s ease-in-out infinite alternate;transition:opacity .25s,transform .25s}
+.candle:nth-child(2n) .flame{animation-duration:1.05s}
+.candle:nth-child(3n) .flame{animation-duration:.66s}
+@keyframes flick{0%{transform:scale(1) rotate(-3deg)}50%{transform:scale(1.07,.94) rotate(2deg)}100%{transform:scale(.95,1.08) rotate(-1deg)}}
+.candle.out{cursor:default}
+.candle.out .flame{animation:none;opacity:0;transform:scale(.2)}
+.candle.out .stick::after{content:"";position:absolute;left:50%;bottom:calc(100% + 8px);width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:rgba(255,255,255,.55);filter:blur(1.5px);animation:smoke 1.3s ease-out forwards}
+@keyframes smoke{to{transform:translate(8px,-46px) scale(3.4);opacity:0}}
+.tier{position:relative;margin:0 auto}
+.tier::before{content:"";position:absolute;left:0;right:0;top:0;height:40px;border-radius:14px 14px 0 0;
+  background:radial-gradient(circle at 50% 0,var(--ice) 0 67%,transparent 69%) 0 13px / 32px 28px repeat-x,linear-gradient(var(--ice),var(--ice)) 0 0 / 100% 14px no-repeat}
+.tier.top{--ice:#fff3dc;width:64%;height:76px;border-radius:14px 14px 0 0;background:linear-gradient(#7a3f25,#5a2b18);z-index:2}
+.tier.bottom{--ice:#f2a516;width:100%;height:104px;border-radius:14px 14px 8px 8px;background:linear-gradient(#fff3dc,#f0dcb8);display:grid;place-items:end center;padding-bottom:12px;color:#6b3a1f;font:700 1.7rem/1 var(--hand)}
+.plate{width:118%;height:16px;margin:0 -9%;border-radius:50%;background:linear-gradient(#f4ecdd,#b9ab92);box-shadow:0 26px 40px -6px rgba(0,0,0,.6)}
+.wish-actions{margin-top:38px;display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.wish .btn{background:var(--marigold);border-color:var(--marigold);color:var(--ink)}
+.wish .btn:hover{background:var(--paper);border-color:var(--paper)}
+.wish .btn.ghost{background:transparent;color:var(--paper);border-color:rgba(244,236,221,.4)}
+.wish .btn.ghost:hover{background:transparent;color:var(--marigold);border-color:var(--marigold)}
+
+footer{background:var(--night);color:rgba(244,236,221,.62);text-align:center;padding:26px var(--pad) 34px;border-top:1px solid rgba(244,236,221,.14);font-size:.86rem}
+footer strong{color:var(--paper);font-weight:600}
+
+/* ───────── Lightbox + confetti ───────── */
+#confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:90}
+dialog.lb{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh;margin:0;overflow:hidden}
+dialog.lb::backdrop{background:rgba(19,15,29,.93)}
+.lb-in{width:100%;height:100%;display:grid;grid-template-rows:1fr auto;place-items:center;padding:22px 16px 20px;cursor:zoom-out}
+.lb-in img{max-width:min(92vw,900px);max-height:calc(100dvh - 110px);object-fit:contain;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.lb-in p{margin-top:14px;color:var(--paper);font:700 1.6rem/1.1 var(--hand);text-align:center}
+.lb-x{position:fixed;top:14px;right:14px;width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(244,236,221,.5);background:rgba(19,15,29,.6);color:var(--paper);font-size:22px;line-height:1;cursor:pointer}
+
+/* ───────── Reveal ───────── */
+.js .rv{opacity:0;transform:translateY(30px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.js .pol.rv{transform:translateY(30px) rotate(var(--r,0deg))}
+.js .pol.rv.in{transform:rotate(var(--r,0deg))}
+.js .pol.rv.in:hover{transform:rotate(0) translateY(-8px) scale(1.02)}
+.js .note.rv.in{transform:rotate(-.6deg)}
+
+/* ───────── Responsive ───────── */
+@media (max-width:980px){
+  .cover{min-height:0}
+  .cover-grid{grid-template-columns:1fr;justify-items:center;text-align:center;margin-top:-4vw;gap:34px}
+  .cover-photo{order:-1;width:min(74vw,400px)}
+  .seal{left:-30px;bottom:-34px;width:100px;height:100px}
+  .seal b{font-size:28px}
+  .cover-left .label{justify-content:center}
+  .cover-left .label::before{display:none}
+  h1{font-size:clamp(2.9rem,11vw,4.6rem)}
+  .dek{margin-inline:auto}
+  .cover-right{justify-self:stretch;width:100%;max-width:440px;text-align:left}
+  .sec-head{grid-template-columns:1fr}
+  .sec-head p{text-align:left}
+  .feature{grid-template-columns:1fr;row-gap:36px}
+  .feature .media,.feature .copy,.feature.flip .media,.feature.flip .copy{grid-column:1;order:0}
+  .media.single{max-width:420px}
+  .letter{grid-template-columns:1fr}
+  .letter-head{position:static}
+}
+@media (max-width:720px){
+  body{font-size:16px}
+  .cover-bar span:last-child{display:none}
+  .board{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(var(--pad) * -1);padding:36px var(--pad) 34px;scrollbar-width:none}
+  .board::-webkit-scrollbar{display:none}
+  .pol{flex:none;width:72vw;max-width:320px;scroll-snap-align:center;margin-top:0!important}
+  .swipe{display:block;margin-top:2px;font:600 11px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:#4a3406}
+  .media.duo{padding:0 10% 14% 0}
+  .media.duo.left{padding:0 0 14% 10%}
+  .note{transform:none}
+  .js .note.rv.in{transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rv{opacity:1;transform:none;transition:none}
+  .js .pol.rv{transform:rotate(var(--r,0deg))}
+  .marquee .track,.seal svg,.flame{animation:none}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<!-- ═════════ COVER ═════════ -->
+<header class="cover" id="top">
+  <div class="cover-bar label">
+    <span>Special Edition</span>
+    <span>The Birthday Issue</span>
+    <span>Zensia AI · Lucknow</span>
+  </div>
+
+  <div class="masthead" aria-hidden="true">
+    <svg viewBox="0 0 1000 178" preserveAspectRatio="xMidYMid meet">
+      <text x="0" y="172" font-size="232" textLength="1000" lengthAdjust="spacingAndGlyphs">ANKUSH</text>
+    </svg>
+  </div>
+
+  <div class="cover-grid">
+    <div class="cover-left">
+      <p class="label">For Ankush Arora</p>
+      <h1>Happy Birthday, <em>Sir.</em></h1>
+      <p class="dek">One founder, many moods: <strong>builder, rider, photographer</strong> and full-time sher. This issue is all yours.</p>
+      <a class="btn" href="#wish">Cut the cake <span aria-hidden="true">↓</span></a>
+    </div>
+
+    <figure class="cover-photo">
+      <div class="frame"><img src="assets/hero.jpg" width="1100" height="1384" alt="Ankush Sir smiling over his shoulder, balloons behind him" fetchpriority="high"></div>
+      <div class="seal" aria-hidden="true">
+        <svg viewBox="0 0 124 124">
+          <circle cx="62" cy="62" r="62" fill="#d8431d"/>
+          <defs><path id="ring" d="M62 62 m-45 0 a45 45 0 1 1 90 0 a45 45 0 1 1 -90 0"/></defs>
+          <text><textPath href="#ring" textLength="278">Happy Birthday ✦ Ankush Sir ✦</textPath></text>
+        </svg>
+        <b>🎂</b>
+      </div>
+    </figure>
+
+    <nav class="cover-right" aria-label="In this issue">
+      <p class="label">In this issue</p>
+      <ul class="toc">
+        <li><a href="#founder"><i>01</i>The Founder</a></li>
+        <li><a href="#rider"><i>02</i>The Rider</a></li>
+        <li><a href="#eye"><i>03</i>The Eye</a></li>
+        <li><a href="#family"><i>04</i>Family First</a></li>
+        <li><a href="#moods"><i>05</i>The Off-Duty Edition</a></li>
+        <li><a href="#letter"><i>06</i>A Letter, and a Cake</a></li>
+      </ul>
+      <p class="byline"><strong>Ankush Arora</strong>Founder &amp; CEO, Zensia AI</p>
+    </nav>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track"><span>Happy Birthday</span><b>✦</b><span>Ankush Sir</span><b>✦</b><span>Founder</span><b>✦</b><span>Rider</span><b>✦</b><span>Photographer</span><b>✦</b><span>Full-time Sher</span><b>✦</b><span>Janamdin Mubarak</span><b>✦</b></div>
+  <div class="track"><span>Happy Birthday</span><b>✦</b><span>Ankush Sir</span><b>✦</b><span>Founder</span><b>✦</b><span>Rider</span><b>✦</b><span>Photographer</span><b>✦</b><span>Full-time Sher</span><b>✦</b><span>Janamdin Mubarak</span><b>✦</b></div>
+</div>
+
+<!-- ═════════ FEATURES ═════════ -->
+<main>
+<section class="wrap" aria-labelledby="features-title">
+  <div class="sec-head rv">
+    <h2 id="features-title">One man.<br><em>Many moods.</em></h2>
+    <p>Four sides of the person we get to call Sir, in his own photographs.</p>
+  </div>
+
+  <article class="feature" id="founder">
+    <div class="media single rv">
+      <figure class="ph" data-cap="At the Zensia booth">
+        <div class="frame"><img src="assets/founder.jpg" width="1100" height="1556" loading="lazy" alt="Ankush Sir standing in front of the Zensia sign at an event booth"></div>
+        <figcaption>At the Zensia booth</figcaption>
+      </figure>
+    </div>
+    <div class="copy rv" style="--d:.12s">
+      <span class="num" aria-hidden="true">01</span>
+      <p class="label">Zensia AI</p>
+      <h3>The <em>Founder</em></h3>
+      <p class="body">Founder and CEO of Zensia AI, building AI employees for businesses out of Lucknow. The name is printed on the t-shirt, but the real signature is in the work: big ideas, clear thinking, and a team that gets carried along with both.</p>
+      <ul class="tags"><li class="fill">Founder &amp; CEO</li><li>AI Employees</li><li>Made in Lucknow</li></ul>
+    </div>
+  </article>
+
+  <article class="feature flip" id="rider">
+    <div class="media duo left rv">
+      <figure class="ph" data-cap="Harley-Davidson X440, clear skies">
+        <div class="frame"><img src="assets/rider.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir on a black Harley-Davidson X440 wearing a golden helmet"></div>
+        <figcaption>Harley-Davidson X440, clear skies</figcaption>
+      </figure>
+      <figure class="ph small" data-cap="The tricolour ride">
+        <div class="frame"><img src="assets/flag-ride.jpg" width="1100" height="1482" loading="lazy" alt="Ankush Sir and a fellow rider holding the Indian flag in front of a flower installation"></div>
+      </figure>
+    </div>
+    <div class="copy rv" style="--d:.12s">
+      <span class="num" aria-hidden="true">02</span>
+      <p class="label">On two wheels</p>
+      <h3>The <em>Rider</em></h3>
+      <p class="body">Golden helmet, tricolour on the cheeks, a Harley underneath. Some people commute. Sir rides, and the road usually looks better for it.</p>
+      <ul class="tags"><li>Harley-Davidson X440</li><li>Open roads</li></ul>
+    </div>
+  </article>
+
+  <article class="feature" id="eye">
+    <div class="media duo rv">
+      <figure class="ph" data-cap="Waiting for the right frame">
+        <div class="frame"><img src="assets/lens.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir kneeling beside a mountain river with a camera and long lens"></div>
+        <figcaption>Waiting for the right frame</figcaption>
+      </figure>
+      <figure class="ph small" data-cap="Morning sun, quiet sip">
+        <div class="frame"><img src="assets/chai.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir in an orange hoodie sipping a drink on a sunlit balcony"></div>
+      </figure>
+    </div>
+    <div class="copy rv" style="--d:.12s">
+      <span class="num" aria-hidden="true">03</span>
+      <p class="label">Behind the lens</p>
+      <h3>The <em>Eye</em></h3>
+      <p class="body">Down on one knee by a mountain river for the shot, then a slow sip in the morning sun. The patience it takes to wait for the right frame is the same patience it takes to build something that lasts.</p>
+      <ul class="tags"><li>Photographer</li><li>Mountains</li><li>Slow mornings</li></ul>
+    </div>
+  </article>
+
+  <article class="feature flip" id="family">
+    <div class="media quad rv">
+      <div class="col">
+        <figure class="ph" data-cap="Festive lights">
+          <div class="frame"><img src="assets/festive.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir seated beside a woman in an orange saree at a festively lit venue"></div>
+        </figure>
+        <figure class="ph" data-cap="Serving with a smile">
+          <div class="frame"><img src="assets/pandal.jpg" width="1100" height="1467" loading="lazy" alt="Ankush Sir serving food together under a floral canopy"></div>
+        </figure>
+      </div>
+      <div class="col">
+        <figure class="ph nat" data-cap="Family portrait">
+          <div class="frame"><img src="assets/family.jpg" width="1100" height="1285" loading="lazy" alt="Ankush Sir standing between two family members seated in cream armchairs"></div>
+        </figure>
+        <figure class="ph" data-cap="The best selfie">
+          <div class="frame"><img src="assets/selfie.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir taking a selfie with an elder family member"></div>
+        </figure>
+      </div>
+    </div>
+    <div class="copy rv" style="--d:.12s">
+      <span class="num" aria-hidden="true">04</span>
+      <p class="label">At home</p>
+      <h3>Family <em>First</em></h3>
+      <p class="body">Behind every big plan are the people who matter most. Festive evenings, proud portraits, selfies held close, and serving others side by side. This is the part of Sir that explains all the rest.</p>
+      <ul class="tags"><li>Together</li><li>Always</li></ul>
+    </div>
+  </article>
+</section>
+
+<!-- ═════════ MOOD BOARD ═════════ -->
+<section class="moods" id="moods" aria-labelledby="moods-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <h2 id="moods-title">The Off-Duty<br><em>Edition.</em></h2>
+      <p>Proof that the boss also knows exactly how to have a good time.</p>
+    </div>
+    <p class="swipe" aria-hidden="true">Swipe →</p>
+    <div class="board">
+      <figure class="pol rv" data-cap="Mood: Sher Wala"><div class="frame"><img src="assets/sher.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir posing in the open jaws of a giant lion statue"></div><figcaption>Mood: Sher Wala</figcaption></figure>
+      <figure class="pol rv" style="--d:.08s" data-cap="Certified fun"><div class="frame"><img src="assets/hearts.jpg" width="1086" height="1448" loading="lazy" alt="A playful selfie with oversized golden heart sunglasses"></div><figcaption>Certified fun</figcaption></figure>
+      <figure class="pol rv" style="--d:.16s" data-cap="Vacation mode: ON"><div class="frame"><img src="assets/vacation.jpg" width="1086" height="1448" loading="lazy" alt="A beach poster with a crown and a coconut drink, captioned Life is Better in Vacation Mode"></div><figcaption>Vacation mode: ON</figcaption></figure>
+      <figure class="pol rv" data-cap="Hero entry at Eros"><div class="frame"><img src="assets/eros.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir standing on a street at night in front of the Eros theatre"></div><figcaption>Hero entry at Eros</figcaption></figure>
+      <figure class="pol rv" style="--d:.08s" data-cap="Out of office"><div class="frame"><img src="assets/boat.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir relaxing on a boat with the sea behind him"></div><figcaption>Out of office</figcaption></figure>
+      <figure class="pol rv" style="--d:.16s" data-cap="Sheriff of the hills"><div class="frame"><img src="assets/hills.jpg" width="1086" height="1448" loading="lazy" alt="Ankush Sir in a hat and red sunglasses on a hillside terrace with pine forest behind"></div><figcaption>Sheriff of the hills</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ LETTER ═════════ -->
+<section class="wrap letter" id="letter" aria-labelledby="letter-title">
+  <div class="letter-head rv">
+    <p class="label">From Tartendu &amp; Arpita</p>
+    <h2 id="letter-title">A note, <em>with gratitude.</em></h2>
+    <p>Some things are easier to write than to say out loud in the office.</p>
+  </div>
+
+  <!-- ✏️ EDIT YOUR MESSAGE HERE: change the paragraphs below to your own words -->
+  <div class="note rv" style="--d:.1s">
+    <p class="salute">Dear Sir,</p>
+    <p>Some people teach you how to do the work. You taught us how to think about it: to stay curious, to keep building, and to stay calm on the days when nothing seems to work.</p>
+    <p>Thank you for your trust, your patience, and for always making time to guide us. Working with you at Zensia is more than a job. It is the best classroom we have ever had.</p>
+    <p>On your birthday, we wish you good health, long rides on open roads, memory cards full of beautiful frames, and a year in which everything you are building grows bigger than you imagined.</p>
+    <p>Happy Birthday, Sir. Keep leading, keep riding, keep smiling.</p>
+    <p class="sign">Tartendu &amp; Arpita<small>With respect, always</small></p>
+  </div>
+</section>
+</main>
+
+<!-- ═════════ CAKE ═════════ -->
+<section class="wish" id="wish" aria-labelledby="wish-title">
+  <div class="before">
+    <p class="label">The last page</p>
+    <h2 id="wish-title">Make a wish, <em>Sir.</em></h2>
+    <p class="hint">Tap each candle to blow it out.</p>
+  </div>
+  <div class="after" aria-live="polite">
+    <p class="label">Wish received</p>
+    <h2>Happy Birthday, <em>Ankush Sir!</em></h2>
+    <p class="hindi" lang="hi">जन्मदिन की हार्दिक शुभकामनाएँ 🎉</p>
+    <p class="hint">May this year be your best ride yet.</p>
+  </div>
+
+  <div class="cake">
+    <div class="candles">
+      <button class="candle" style="--c:#d8431d" aria-label="Blow out candle 1"><span class="stick"><span class="flame"></span></span></button>
+      <button class="candle" style="--c:#5568f6" aria-label="Blow out candle 2"><span class="stick"><span class="flame"></span></span></button>
+      <button class="candle" style="--c:#f2a516" aria-label="Blow out candle 3"><span class="stick"><span class="flame"></span></span></button>
+      <button class="candle" style="--c:#5568f6" aria-label="Blow out candle 4"><span class="stick"><span class="flame"></span></span></button>
+      <button class="candle" style="--c:#d8431d" aria-label="Blow out candle 5"><span class="stick"><span class="flame"></span></span></button>
+    </div>
+    <div class="tier top"></div>
+    <div class="tier bottom">Happy Birthday Sir</div>
+    <div class="plate"></div>
+  </div>
+
+  <div class="wish-actions">
+    <button class="btn" id="blowAll" type="button">Blow them all out</button>
+    <button class="btn ghost" id="relight" type="button" hidden>Light them again</button>
+    <button class="btn ghost" id="sound" type="button" aria-pressed="true">Music: on</button>
+  </div>
+</section>
+
+<footer>
+  <p>Made with respect and a lot of <span aria-hidden="true">♥</span> by <strong>Tartendu &amp; Arpita</strong> · Team Zensia AI</p>
+</footer>
+
+<dialog class="lb" id="lb" aria-label="Photo viewer">
+  <div class="lb-in"><img alt=""><p></p></div>
+  <button class="lb-x" type="button" aria-label="Close">×</button>
+</dialog>
+
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ── Scroll reveal ── */
+  const rvs = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window && !reduce) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { threshold: .12, rootMargin: '0px 0px -6% 0px' });
+    rvs.forEach(el => io.observe(el));
+  } else rvs.forEach(el => el.classList.add('in'));
+
+  /* ── Confetti ── */
+  const cv = document.getElementById('confetti'), ctx = cv.getContext('2d');
+  const colors = ['#f2a516', '#d8431d', '#5568f6', '#fffaf0', '#ffd66b', '#2fb87e'];
+  let parts = [], raf = null, W = 0, H = 0;
+  function size() {
+    const d = Math.min(devicePixelRatio || 1, 2);
+    W = innerWidth; H = innerHeight;
+    cv.width = W * d; cv.height = H * d; ctx.setTransform(d, 0, 0, d, 0, 0);
+  }
+  size(); addEventListener('resize', size);
+  function burst(n, x, y, angle, spread, power) {
+    if (reduce) return;
+    for (let i = 0; i < n; i++) {
+      const a = angle + (Math.random() - .5) * spread, v = power * (.45 + Math.random() * .75);
+      parts.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, w: 6 + Math.random() * 7, h: 4 + Math.random() * 5,
+        r: Math.random() * 6.3, vr: (Math.random() - .5) * .35, c: colors[i % colors.length], life: 0,
+        max: 150 + Math.random() * 110, round: Math.random() < .25 });
+    }
+    if (!raf) raf = requestAnimationFrame(tick);
+  }
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+    parts = parts.filter(p => p.life < p.max && p.y < H + 40);
+    for (const p of parts) {
+      p.life++; p.vy += .16; p.vx *= .988; p.vy *= .988;
+      p.x += p.vx + Math.sin(p.life / 14 + p.r) * .7; p.y += p.vy; p.r += p.vr;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r);
+      ctx.globalAlpha = Math.min(1, (p.max - p.life) / 28); ctx.fillStyle = p.c;
+      if (p.round) { ctx.beginPath(); ctx.arc(0, 0, p.h / 1.4, 0, 6.3); ctx.fill(); }
+      else ctx.fillRect(-p.w / 2, -p.h / 2 * Math.cos(p.life / 9), p.w, p.h * Math.cos(p.life / 9));
+      ctx.restore();
+    }
+    raf = parts.length ? requestAnimationFrame(tick) : null;
+  }
+  function party() {
+    burst(130, 0, H * .92, -Math.PI / 3.2, .9, 19);
+    burst(130, W, H * .92, -Math.PI + Math.PI / 3.2, .9, 19);
+    let k = 0;
+    const t = setInterval(() => { burst(34, Math.random() * W, -12, Math.PI / 2, 1.3, 5); if (++k > 16) clearInterval(t); }, 190);
+  }
+  addEventListener('load', () => setTimeout(() => {
+    burst(70, W * .5, H * .3, -Math.PI / 2, Math.PI * 2, 9);
+  }, 700));
+
+  /* ── Birthday tune (Web Audio, no files needed) ── */
+  let soundOn = true, ac = null;
+  const soundBtn = document.getElementById('sound');
+  soundBtn.addEventListener('click', () => {
+    soundOn = !soundOn;
+    soundBtn.textContent = 'Music: ' + (soundOn ? 'on' : 'off');
+    soundBtn.setAttribute('aria-pressed', soundOn);
+    if (!soundOn && ac) { ac.close(); ac = null; }
+  });
+  function tune() {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!soundOn || !AC) return;
+    if (ac) ac.close();
+    ac = new AC();
+    const f = { G4: 392, A4: 440, B4: 493.88, C5: 523.25, D5: 587.33, E5: 659.25, F5: 698.46, G5: 783.99 };
+    const seq = [['G4', .75], ['G4', .25], ['A4', 1], ['G4', 1], ['C5', 1], ['B4', 2],
+                 ['G4', .75], ['G4', .25], ['A4', 1], ['G4', 1], ['D5', 1], ['C5', 2],
+                 ['G4', .75], ['G4', .25], ['G5', 1], ['E5', 1], ['C5', 1], ['B4', 1], ['A4', 2],
+                 ['F5', .75], ['F5', .25], ['E5', 1], ['C5', 1], ['D5', 1], ['C5', 3]];
+    const beat = .43; let t = ac.currentTime + .08;
+    for (const [n, d] of seq) {
+      const len = d * beat;
+      for (const [type, mult, vol] of [['triangle', 1, .2], ['sine', 2, .05]]) {
+        const o = ac.createOscillator(), g = ac.createGain();
+        o.type = type; o.frequency.value = f[n] * mult;
+        g.gain.setValueAtTime(.0001, t);
+        g.gain.exponentialRampToValueAtTime(vol, t + .025);
+        g.gain.exponentialRampToValueAtTime(.0001, t + len * .96);
+        o.connect(g).connect(ac.destination); o.start(t); o.stop(t + len);
+      }
+      t += len;
+    }
+  }
+
+  /* ── Candles ── */
+  const wish = document.getElementById('wish');
+  const candles = [...document.querySelectorAll('.candle')];
+  const blowAll = document.getElementById('blowAll'), relight = document.getElementById('relight');
+  function blow(c) {
+    if (c.classList.contains('out')) return;
+    c.classList.add('out'); c.disabled = true;
+    if (candles.every(x => x.classList.contains('out'))) finale();
+  }
+  function finale() {
+    wish.classList.add('done');
+    blowAll.hidden = true; relight.hidden = false;
+    party(); tune();
+  }
+  candles.forEach(c => c.addEventListener('click', () => blow(c)));
+  blowAll.addEventListener('click', () => {
+    candles.filter(c => !c.classList.contains('out')).forEach((c, i) => setTimeout(() => blow(c), i * 150));
+  });
+  relight.addEventListener('click', () => {
+    candles.forEach(c => { c.classList.remove('out'); c.disabled = false; });
+    wish.classList.remove('done');
+    blowAll.hidden = false; relight.hidden = true;
+    if (ac) { ac.close(); ac = null; }
+  });
+
+  /* ── Photo viewer ── */
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img'), lbCap = lb.querySelector('p');
+  document.querySelectorAll('[data-cap]').forEach(fig => {
+    const img = fig.querySelector('img');
+    fig.tabIndex = 0; fig.setAttribute('role', 'button');
+    fig.setAttribute('aria-label', 'View photo: ' + fig.dataset.cap);
+    const open = () => {
+      lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt; lbCap.textContent = fig.dataset.cap;
+      lb.showModal ? lb.showModal() : lb.setAttribute('open', '');
+    };
+    fig.addEventListener('click', open);
+    fig.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+  lb.addEventListener('click', () => lb.close());
+})();
+</script>
+</body>
+</html>
